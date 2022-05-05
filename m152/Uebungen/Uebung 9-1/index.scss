@@ -5,13 +5,12 @@
 
 
     .wrapper {
-        width: 50%;
+        width: 20%;
     }
 
 
-
+    font-family: 'Roboto Slab', serif;
 }
-
 
 
 .person {
@@ -22,7 +21,9 @@
     text-align: center;
     display: inline-block;
 
-
+    .titel{
+        font-weight: bold;
+    }
 
     .image {
         padding: 10px;
@@ -35,13 +36,9 @@
         }
     }
 
-
-
     .text {
         padding: 10px;
     }
-
-
 
     padding:10px;
 
@@ -53,10 +50,10 @@
 
 
         a.button {
-            background-color: greenyellow;
+            background-color: rgb(28, 204, 22);
             border-radius: 4px;
             text-align: center;
-            border: 10px solid greenyellow;
+            border: 10px solid rgb(28, 204, 22);
             display: block;
             color: black;
             text-decoration: none;

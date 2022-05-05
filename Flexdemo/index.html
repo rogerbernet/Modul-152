@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 800px;
+    height: 600px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    align-items: center;
+    
+
+    }
+    .element{
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+        display: block;
+        border: 1px solid darkgoldenrod;
+    }
+    .bigger{
+        width: 200px;
+        height: 150px;
+        background-color: yellow;
+        display: block;
+        border: 1px solid darkgoldenrod;
+    }
+    button{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        border-radius: 12px;
+        border: none;
+    }
+    button.a{
+        background-color: lightgreen;
+    }
+    button.b{
+        background-color: red;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="element"></div>
+        <div class="bigger"></div>
+        <div class="element"></div>
+    </div>
+    <button class="a"></button>
+    <button class="b"></button>
+</body>
+</html>

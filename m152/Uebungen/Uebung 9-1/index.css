@@ -1,9 +1,10 @@
 .container {
   display: flex;
   flex-wrap: wrap;
+  font-family: "Roboto Slab", serif;
 }
 .container .wrapper {
-  width: 50%;
+  width: 20%;
 }
 
 .person {
@@ -14,6 +15,9 @@
   text-align: center;
   display: inline-block;
   padding: 10px;
+}
+.person .titel {
+  font-weight: bold;
 }
 .person .image {
   padding: 10px;
@@ -29,10 +33,10 @@
   padding: 10px;
 }
 .person .link a.button {
-  background-color: greenyellow;
+  background-color: rgb(28, 204, 22);
   border-radius: 4px;
   text-align: center;
-  border: 10px solid greenyellow;
+  border: 10px solid rgb(28, 204, 22);
   display: block;
   color: black;
   text-decoration: none;

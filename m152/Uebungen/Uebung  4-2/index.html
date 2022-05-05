@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .el-1{
+        display: block;
+        background-color: aliceblue;
+        grid-area: el-1;
+    }
+    .el-2{
+        display: block;
+        background-color: rgb(42, 62, 78);
+        grid-area: el-2;
+    }
+    .el-3{
+        display: block;
+        background-color: rgb(29, 131, 105);
+        grid-area: el-3;
+    }
+    .el-4{
+        display: block;
+        background-color: rgb(169, 179, 39);
+        grid-area: el-4;
+    }
+    .el-5{
+        display: block;
+        background-color: rgb(170, 28, 52);
+        grid-area: el-5;
+    }
+    .el-6{
+        display: block;
+        background-color: rgb(255, 189, 47);
+        grid-area: el-6;
+    }
+    .el-7{
+        display: block;
+        background-color: rgb(188, 253, 255);
+        grid-area: el-7;
+    }
+    .el-8{
+        display: block;
+        background-color: rgb(255, 59, 190);
+        grid-area: el-8;
+    }
+    .el-8{
+        display: block;
+        background-color: rgb(47, 0, 255);
+        grid-area: el-9;
+    }
+    .container{
+        width: 800px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 1fr 1fr;
+        grid-template-areas: 
+        "el-1 el-2 el-2 el-2 el-7"
+        "el-1 el-3 el-4 el-5 el-5"
+        "el-1 el-6 el-6 el-5 el-5"
+        "el-8 el-8 el-9 el-9 el-9"
+        
+        ;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="el-1">1</div>
+        <div class="el-2">2</div>
+        <div class="el-3">3</div>
+        <div class="el-4">4</div>
+        <div class="el-5">5</div>
+        <div class="el-6">6</div>
+        <div class="el-7">7</div>
+        <div class="el-8">8</div>
+        <div class="el-9">9</div>
+    </div>
+</body>
+</html>
